@@ -1,6 +1,6 @@
 # Written by Nick Lindstrom
-# Date September-2022
-# Version 0.5
+# Date November-2022
+# Version 1
 
 # Requirements to run script, Python with installed modules Paramiko, SCP, and Getpass
 
