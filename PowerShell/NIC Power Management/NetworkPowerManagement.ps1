@@ -13,7 +13,7 @@ Function Set-NetRegistry{
 $RegPath="HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e972-e325-11ce-bfc1-08002be10318}"
 $SubKey=0000
 
-While($SubKey -lt 0021){
+While($SubKey -lt 0015){
 try {
 	New-Item -Path Registry::"$RegPath\$("$subkey".ToString().PadLeft(4,'0'))" -ErrorAction Stop
 	Set-NetRegistry
