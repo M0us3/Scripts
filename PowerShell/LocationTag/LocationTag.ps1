@@ -24,6 +24,6 @@ $Online = Test-NetConnection site.com
 		
 		# If ping fails write error
 		Else {
-    		Write-Host = "Verify computer have network connection before proceeding with the install"
+    		Write-Host = "Verify computer have network connection before proceeding"
     		Exit-Script
 		}
